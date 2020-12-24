@@ -20,7 +20,7 @@ const CoinFlip = (props) => {
     return (
         <div className='CoinFlip'>
             <h1>Let's flip a coin!</h1>
-            <img src={image}></img>
+            <img alt={image} src={image}></img>
             <button onClick={flipCoin}>Flip Me</button>
             <p>{`Out of ${heads + tails} flips, there have been ${heads} heads and ${tails} tails.`}</p>
         </div>
